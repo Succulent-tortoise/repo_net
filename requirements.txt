@@ -1,0 +1,11 @@
+networkx>=3.1
+matplotlib>=3.7
+
+
+# How to use it
+
+# While your r_n venv is activated:
+
+# pip install -r requirements.txt
+
+# Boom — same environment anywhere.

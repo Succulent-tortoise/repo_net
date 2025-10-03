@@ -1,0 +1,35 @@
+
+1. Create the virtual environment
+cd /path/to/project/root
+python3 -m venv r_n
+
+2. Activate the virtual environment
+
+Linux / macOS:
+
+source r_n/bin/activate
+
+
+Windows (PowerShell):
+
+r_n\Scripts\Activate.ps1
+
+
+Windows (cmd):
+
+r_n\Scripts\activate.bat
+
+
+You should see (r_n) prefixed in your terminal prompt.
+
+3. Upgrade pip (optional but recommended)
+pip install --upgrade pip
+
+4. Install required packages
+pip install networkx matplotlib
+
+5. Verify installation
+python -c "import networkx, matplotlib; print('All good!')"
+
+6. Deactivate when done
+deactivate
