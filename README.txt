@@ -1,4 +1,3 @@
-
 Repo Graph Builder
 ==================
 
@@ -29,9 +28,14 @@ Requirements:
 Installation:
 -------------
 1. Clone or copy this repo:
-   git clone <repo_url>
-2. Install dependencies:
-   pip install networkx matplotlib
+   git clone https://github.com/<username>/repo_net.git
+2. Create and activate a virtual environment:
+   python3 -m venv r_n
+   source r_n/bin/activate   # Linux/macOS
+3. Upgrade pip (optional):
+   pip install --upgrade pip
+4. Install dependencies:
+   pip install -r requirements.txt
 
 Usage:
 ------
@@ -42,4 +46,19 @@ Usage:
    - `repo_graph.graphml` in the project root
    - Optional visualization of the graph in a popup window
 
-Ne
+Notes:
+------
+- A `.gitignore` is included to exclude the virtual environment (`r_n/`),
+  temporary files, and generated graph outputs from the repository.
+- The virtual environment is not committed, so each user should create
+  their own `r_n` when cloning the repo.
+
+Next Steps / Extensions:
+------------------------
+- Add embeddings for nodes to integrate with a language model
+- Support additional metadata or external libraries
+- Extend to other languages by adapting the AST parsing
+
+Author:
+-------
+Matt Donnelly
