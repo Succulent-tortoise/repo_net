@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+r_n/
+
+# Graph output files
+repo_graph.graphml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Optional: temporary files
+*.tmp
