@@ -109,12 +109,12 @@ python repo_net.py /path/to/target_repo
 
 ## Output
 
-1. **GEXF file (`repo_graph.gexf`)**
+1. **GEXF file (********`repo_graph.gexf`********)**
 
    * Can be opened in Gephi, yEd, Cytoscape, etc.
    * Node attributes that are lists (arguments, decorators, bases) are stored as semicolon-separated strings.
 
-2. **Pickle file (`repo_graph.pkl`)**
+2. **Pickle file (********`repo_graph.pkl`********)**
 
    * Fully preserves all node attributes as Python-native types (lists, dicts).
    * Ideal for querying or processing in Python:
@@ -150,8 +150,7 @@ print(len(G.nodes), len(G.edges))
 
 ---
 
-"Did you take a lot acid Miller? Back in the 60's?" - Otto (Emilo Estevez), Repo Man, 1984
-
+"Did you take a lot acid Miller? Back in the 60's?" - Otto (Emilo Estevez), *Repo Man*, 1984
 
 ## Author
 
