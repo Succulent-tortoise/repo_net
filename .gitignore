@@ -8,6 +8,9 @@ r_n/
 # Graph output files
 repo_graph.graphml
 
+# Generated graph outputs
+graph_output/
+
 # OS-specific files
 .DS_Store
 Thumbs.db

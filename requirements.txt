@@ -1,6 +1,6 @@
-networkx>=3.1
-matplotlib>=3.7
-
+networkx>=3.1 			# Graph library for nodes and edges
+matplotlib>=3.7  		# Visualization library for graph drawing
+scipy>=1.11          	# Required for networkx spring_layout
 
 # How to use it
 
